@@ -14,7 +14,6 @@ function Main () {
         <div className={styles.photo}>
           <img src="" alt="" />
         </div>
-
       </div>
     </div>
   );
