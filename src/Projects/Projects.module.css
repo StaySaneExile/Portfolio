@@ -5,25 +5,45 @@
   display: flex;
 }
 
-.projects {
+.container {
   width: 80%;
   height: 70%;
   border: 1px solid;
   display: flex;
-  margin-top: 10%;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  margin-top: 60px;
+}
+.projectWrapper {
+  display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
 }
-
-.project_1 {
-  width: 40%;
-  height: 60%;
-  border: 1px solid;
-
-
+.project {
+  width: 500px;
+  background-color: darkslategray;
+  display: flex;
+  flex-direction: column;
 }
-.project_2 {
-  width: 40%;
-  height: 60%;
-  border: 1px solid;
-  margin-left: 20%;
+.projectImg {
+  height: 280px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnShow {
+  width: 150px;
+  height: 50px;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1252px) {
+  .projectWrapper {
+    justify-content: center;
+  }
 }

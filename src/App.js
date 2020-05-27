@@ -21,9 +21,6 @@ function App() {
         <Slogan/>
         <Contacts/>
         <Footer/>
-
-
-
       </div>
 
 

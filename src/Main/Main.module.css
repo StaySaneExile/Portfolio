@@ -1,8 +1,9 @@
 .main {
   height: 100vh;
-  background-color: burlywood;
+  background-color: #1f1f20;
   display: flex;
   justify-content: center;
+  padding: 100px 0;
 }
 
 .container {
@@ -15,15 +16,56 @@
 }
 
 .greeting {
-  background-color: bisque;
   display: flex;
   flex-direction: column;
+}
+.greeting span:nth-child(1) {
+  font-size: 26px;
+}
+.greeting span:nth-child(2),
+.greeting span:nth-child(2) span {
+  font-size: 50px;
+  font-weight: 700;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  z-index: 0;
+}
 
-
+.greeting span:nth-child(2) span:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  background-color: #466cff;
+  bottom: 0px;
+  z-index: -1;
+}
+.h1 {
+  font-size: 27px;
 }
 
 .photo {
+  margin-top: 50px;
+  position:relative ;
+  z-index: 1;
+}
+
+.image {
   height: 300px;
-  width: 180px;
+  width: 220px;
   background-color: dimgray;
+
+}
+.photo .image:before {
+  content: '';
+  position: absolute;
+  height: 320px;
+  width: 220px;
+  border: 3px solid #466cff;
+  left: 8px;
+  top: -13px;
+  z-index: -1;
 }
