@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b89c1b5c73e6c7068e92d0f9f0f6a1ac",
+    "revision": "ec01a78dac32ca8cf00bdba768cca326",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "fcf69e788b8c13463f6a",
-    "url": "/Portfolio/static/css/main.76a70ead.chunk.css"
+    "revision": "1fd459bceb5fcb743503",
+    "url": "/Portfolio/static/css/main.e3e0f36b.chunk.css"
   },
   {
-    "revision": "d04a38de65e97dca29d8",
-    "url": "/Portfolio/static/js/2.c9e8b84c.chunk.js"
+    "revision": "764e7d95fce727acf9e7",
+    "url": "/Portfolio/static/js/2.e7caaee0.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Portfolio/static/js/2.c9e8b84c.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.e7caaee0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fcf69e788b8c13463f6a",
-    "url": "/Portfolio/static/js/main.cccfea21.chunk.js"
+    "revision": "1fd459bceb5fcb743503",
+    "url": "/Portfolio/static/js/main.80833667.chunk.js"
   },
   {
     "revision": "107ce3c625a9fb1de279",
@@ -28,8 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/counter.c9206e18.jpeg"
   },
   {
+    "revision": "37e21c13bdf60cc3997ea608bbc78953",
+    "url": "/Portfolio/static/media/exchanger.37e21c13.png"
+  },
+  {
     "revision": "357c3c73e054d6b0eb9a10dbf80aca08",
     "url": "/Portfolio/static/media/github.357c3c73.png"
+  },
+  {
+    "revision": "b62fbe6186464ea40f5626e914aacfe9",
+    "url": "/Portfolio/static/media/img.b62fbe61.jpg"
   },
   {
     "revision": "d392b6ec3d319a219a2829cb9eb21737",
@@ -38,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "49fc877dfce26bb4d0c08ae546719218",
     "url": "/Portfolio/static/media/reactIcon.49fc877d.png"
+  },
+  {
+    "revision": "37e319597ee62aca061e620f24bebdef",
+    "url": "/Portfolio/static/media/redux.37e31959.png"
   },
   {
     "revision": "f786d88f5ff99cd72cf3adc1ede29451",
