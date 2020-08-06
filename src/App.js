@@ -7,23 +7,29 @@ import Projects from "./Projects/Projects"
 import Slogan from "./Slogan/Slogan"
 import Contacts from "./Contacts/Contacts";
 import Footer from "./Footer/Footer";
+import Particles from 'react-particles-js';
 
-
+const particlesOption = {
+  particles: {
+    number: {
+      value: 100,
+      density: {
+        enable: true,
+        value_area: 1500
+      }
+    }
+  }
+}
 
 function App() {
   return (
     <div className="App">
-      <div className="portfolio">
-        <Header />
+        <Particles className='particles' params={particlesOption}/>
         <Main/>
         <Skills />
         <Projects/>
         <Slogan/>
         <Contacts/>
-        <Footer/>
-      </div>
-
-
     </div>
   );
 }

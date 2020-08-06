@@ -1,16 +1,52 @@
 
 .skill {
-  width: 30%;
-  height: 75%;
-  border: 1px solid;
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 
 }
 .icon {
-  height: 60px;
-  width: 60px;
-  background-color: burlywood;
+  height: 80px;
+  width: 80px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.icon img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  max-width: 180px;
+  text-align: center;
+}
+.skill_title {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 0.2;
+}
+
+/*@media screen and (max-width: 1128px) {*/
+/*  .skill {*/
+/*    width: 100%;*/
+/*  }*/
+/*}*/
+/*@media screen and (max-width: 630px) {*/
+/*  .skill {*/
+/*    width: 100%;*/
+/*  }*/
+/*}*/
+/*@media screen and (max-width: 600px) {*/
+/*  .skill {*/
+/*    width: 100%;*/
+/*  }*/
+/*}*/

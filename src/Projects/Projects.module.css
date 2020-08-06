@@ -1,18 +1,16 @@
 .main {
-  height: 100vh;
-  background-color: darkgrey;
+  min-height: 100vh;
+  background-color: #1f1f20;
   justify-content: center;
   display: flex;
+  position: relative;
 }
 
 .container {
   width: 80%;
-  height: 70%;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px;
   margin-top: 60px;
 }
 .projectWrapper {
@@ -23,25 +21,121 @@
 }
 .project {
   width: 500px;
-  background-color: darkslategray;
+  background-color: #252527;
   display: flex;
   flex-direction: column;
+  margin-bottom: 60px;
+  height: max-content;
+  position: relative;
 }
-.projectImg {
-  height: 280px;
-  background-color: skyblue;
+.projectImgTodo {
+  height: 300px;
+  background-image: url("./../image/9798022_300x300.jpg");
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.projectImgTodo:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.projectImgSocial {
+  height: 300px;
+  background-image: url("./../image/socialnetwork.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectImgSocial:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background-color: black;
+  opacity: 0.8;
+}
+.projectImgCounter {
+  height: 300px;
+  background-image: url("./../image/counter.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectImgCounter:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background-color: black;
+  opacity: 0.8;
+}
+  .projectImgExchanger {
+    height: 300px;
+    background-image: url("./../image/exchanger.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.projectImgExchanger:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+
+
+.projectTitle {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px;
+  padding: 0;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+.description {
+  margin: 0 20px 20px;
+}
+
 .btnShow {
-  width: 150px;
-  height: 50px;
-  background-color: lightpink;
+  width: 120px;
+  height: 40px;
+  background-color: #252527;
+  border-radius: 4px;
+  color: darkgrey;
+  font-size: large;
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
 @media screen and (max-width: 1252px) {
   .projectWrapper {
     justify-content: center;
