@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0ce2edee.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a7db8f66.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a7db8f66.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.76a70ead.chunk.css",
+    "main.js": "/Portfolio/static/js/main.cccfea21.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.cccfea21.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e029fae7.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e029fae7.js.map",
-    "static/js/2.0c3c1ff6.chunk.js": "/Portfolio/static/js/2.0c3c1ff6.chunk.js",
-    "static/js/2.0c3c1ff6.chunk.js.map": "/Portfolio/static/js/2.0c3c1ff6.chunk.js.map",
+    "static/js/2.c9e8b84c.chunk.js": "/Portfolio/static/js/2.c9e8b84c.chunk.js",
+    "static/js/2.c9e8b84c.chunk.js.map": "/Portfolio/static/js/2.c9e8b84c.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.667a17f1d34abdfb685427adc15ce596.js": "/Portfolio/precache-manifest.667a17f1d34abdfb685427adc15ce596.js",
+    "precache-manifest.63c702f1d7fa3727d7ec9dae39aadce0.js": "/Portfolio/precache-manifest.63c702f1d7fa3727d7ec9dae39aadce0.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.0ce2edee.chunk.css.map": "/Portfolio/static/css/main.0ce2edee.chunk.css.map",
-    "static/js/2.0c3c1ff6.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.0c3c1ff6.chunk.js.LICENSE.txt"
+    "static/css/main.76a70ead.chunk.css.map": "/Portfolio/static/css/main.76a70ead.chunk.css.map",
+    "static/js/2.c9e8b84c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c9e8b84c.chunk.js.LICENSE.txt",
+    "static/media/Projects.module.css": "/Portfolio/static/media/socialnetwork.f786d88f.jpg",
+    "static/media/github.png": "/Portfolio/static/media/github.357c3c73.png",
+    "static/media/react.png": "/Portfolio/static/media/react.d392b6ec.png",
+    "static/media/reactIcon.png": "/Portfolio/static/media/reactIcon.49fc877d.png",
+    "static/media/telegram.png": "/Portfolio/static/media/telegram.d28cb5eb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e029fae7.js",
-    "static/js/2.0c3c1ff6.chunk.js",
-    "static/css/main.0ce2edee.chunk.css",
-    "static/js/main.a7db8f66.chunk.js"
+    "static/js/2.c9e8b84c.chunk.js",
+    "static/css/main.76a70ead.chunk.css",
+    "static/js/main.cccfea21.chunk.js"
   ]
 }
